@@ -1,0 +1,292 @@
+/* GENERAL SETTINGS */
+@font-face {
+  font-family: JennaSue;
+  src: url(../fonts/JennaSue.ttf);
+}
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.small--wrapper {
+  display: inline-block;
+}
+
+/* TEXT STYLING */
+h1 {
+  font-family: Georgia;
+  font-size: 77px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 44px;
+  text-align: center;
+}
+
+h3 {
+  color: #333333;
+  font-family: Georgia;
+  font-size: 32px;
+  line-height: 34px;
+  text-align: center;
+}
+
+h4 {
+  font-family: Georgia;
+  color: #ac005f;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: left;
+}
+
+.logo--link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.small--button {
+  color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.preambula {
+  color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.big--button {
+  color: #fff;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.more--text {
+  color: #fff;
+  font-family: Georgia;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.more--link {
+  color: #ffb400;
+  text-decoration: none;
+}
+
+.opinion {
+  color: #fff;
+  font-family: Georgia;
+  font-size: 18px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.opinion--link {
+  color: #ffb400;
+}
+
+.story--text {
+  font-family: Arial;
+color:  #444444;
+font-size: 14px;
+line-height: 22px;
+text-align: left;
+}
+
+.story--bold {
+  font-weight: bold;
+}
+
+.main--text {
+  color:  #444444;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.sign {
+  font-family: JennaSue;
+  font-size: 44px;
+  line-height: 44px;
+}
+
+.autor--text {
+  font-family: JennaSue;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: left;
+}
+
+.footer--link {
+  color: #777777;
+  font-family: Arial;
+  font-size: 11px;
+}
+
+.copyright {
+  color: #9a9a9a;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+
+
+
+
+/* HEAD */
+header {
+  background: url('../img/header--background.jpg') no-repeat center;
+  display: inline-block;
+  position: relative;
+  width: 946px;
+  border-top: 1px solid #ffb400;
+  border-bottom: 1px solid #ffb400;
+  padding: 29px 0 10px;
+}
+
+.video {
+  float: left;
+  height: 389px;
+  width: 639px;
+}
+
+.logo-wrapper {
+  float: right;
+}
+
+.preambula {
+  display: inline-block;
+  width: 240px;
+}
+
+.menu {
+  height: 256px;
+}
+
+.header--devider {
+  position: absolute;
+  margin-left: 445px;
+  margin-top: -20px;
+  height: 42px;
+  width: 42px;
+  background: #372222; /*url('../img/') no-repeat center;*/
+  border-radius: 50%;
+}
+
+.small--button {
+  background: linear-gradient(0deg, #251717 0%, #523232 53%);
+  border: 0;
+  border-radius: 12px;
+  height: 31px;
+  width: 125px;
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.big--button {
+  border-radius: 7px;
+  border: 2px solid #171717;
+  background: linear-gradient(0deg, #b35d00 0%, #d48f00 100%);
+  box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 65px;
+  width: 195px;
+}
+
+.opinion {
+  display: inline-block;
+  background: #4d2f2f;
+  /*border: 2px solid #171717;*/
+  border-radius: 22px;
+  height: 37px;
+  width: 350px;
+}
+
+
+/* nav */
+nav {
+  width: 946px;
+}
+
+.dvd {
+
+}
+
+.dvd--item {
+  display: inline-block;
+
+  height:
+  /*box-sizing: border-box;*/
+
+}
+
+.dvd--link {
+  display: inline-block;
+  height: 246px;
+}
+
+.story--wrapper {
+  background: linear-gradient(0deg, #840322 0%, #c42a4f 45%);
+}
+
+.dvd--story {
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 22px;
+  border-top: 0;
+}
+
+
+
+/* MAIN */
+main {
+  position: relative;
+  width: 938px;
+}
+
+section {
+  float: left;
+  height: 653px;
+  width: 455px;
+}
+
+aside {
+  float: right;
+  width: 263px;
+}
+
+main::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+/* FOOTER */
+.copyright {
+  float: left;
+}
+
+.footer--menu {
+  float: right;
+}
+
+.footer--item {
+  display: inline-block;
+}
+
+.footer--link:hover {
+    text-decoration: none;
+}
+
+.footer--link:active {
+    text-decoration: none;
+}
