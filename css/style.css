@@ -11,6 +11,7 @@
 }
 
 .wrapper--up {
+  padding-left: 1px;
   background: url('../img/header--background.jpg') no-repeat top;
 }
 
@@ -92,12 +93,13 @@ h4 {
   color: #fff;
   font-family: Georgia;
   font-size: 18px;
-  line-height: 34px;
+  line-height: 32px;
   text-align: center;
 }
 
 .opinion--link {
   color: #ffb400;
+  text-decoration: none;
 }
 
 .story--text {
@@ -154,20 +156,27 @@ text-align: left;
 header {
   display: inline-block;
   position: relative;
-  width: 946px;
-  border-top: 1px solid #ffb400;
+  width: 942px;
+  border-top: 2px solid #ffb400;
   border-bottom: 1px solid #ffb400;
-  padding: 29px 0 10px;
+  padding: 23px 0 35px;
 }
 
 .video {
   float: left;
+  margin-left: 1px;
+  margin-top: 3px;
   height: 389px;
   width: 639px;
 }
 
 .logo-wrapper {
   float: right;
+}
+
+h2 {
+  margin-top: 19px;
+  margin-left: 1px;
 }
 
 .preambula {
@@ -177,7 +186,9 @@ header {
 }
 
 .menu {
-  width: 894px;
+  margin-top: 48px;
+  width: 946px;
+  text-align: left;
 }
 
 .menu::after {
@@ -187,22 +198,24 @@ header {
 }
 
 .menu--item {
-    display: inline-block;
-    height: 256px;
-    width: 256px;
-    border-radius: 50%;
+  display: inline-block;
+  height: 256px;
+  border-radius: 50%;
+  background: url('../img/menu.png') no-repeat -575px -148px;
+  width: 256px;
 }
 
 .menu--item:first-child {
-  background: url('../img/menu.png') no-repeat -100px -201px;
+  margin: 0 62px 0 5px;
+  background: url('../img/menu.png') no-repeat -51px -201px;
 }
 
 .menu--item {
-  background: url('../img/menu.png') no-repeat -540px -130px;
 }
 
 .menu--item:last-child {
-  background: url('../img/menu.png') no-repeat -950px -204px, #fff;
+    margin-left: 60px;
+  background: url('../img/menu.png') no-repeat -935px -200px, #fff;
 }
 
 .menu--link {
@@ -211,6 +224,10 @@ header {
     text-decoration: none;
     width: 256px;
   display: inline-block;
+}
+
+.more--text {
+    margin: 20px 0 0 -34px;
 }
 
 .header--devider {
@@ -249,13 +266,19 @@ header {
 
 .opinion {
   display: inline-block;
+  margin-top: 17px;
+  padding-top: 2px;
+  margin-left: -1px;
   background: #4d2f2f;
   /*border: 2px solid #171717;*/
   border-radius: 22px;
-  height: 37px;
-  width: 350px;
+  height: 35px;
+  width: 364px;
 }
 
+.opinion--link {
+  border-bottom: 1px solid #ffb400;
+}
 
 /* nav */
 nav {
