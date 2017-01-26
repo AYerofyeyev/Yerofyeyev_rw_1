@@ -236,7 +236,7 @@ h2 {
   margin-top: -20px;
   height: 42px;
   width: 42px;
-  background: #372222; /*url('../img/') no-repeat center;*/
+  background: url('../img/header--devider.png') no-repeat center, #372222;
   border-radius: 50%;
 }
 
@@ -248,6 +248,7 @@ h2 {
   height: 31px;
   width: 131px;
   box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
 }
 
 .big--button {
@@ -262,6 +263,7 @@ h2 {
   padding: 1px 0 0 32px ;
   letter-spacing: 1px;
   word-spacing: -2px;
+  cursor: pointer;
 }
 
 .opinion {
@@ -282,34 +284,103 @@ h2 {
 
 /* nav */
 nav {
+  position: relative;
   background: #fff;
   width: 946px;
 }
 
 .dvd {
-
+  position: absolute;
 }
 
 .dvd--item {
   display: inline-block;
-
-  height:
-  /*box-sizing: border-box;*/
-
 }
 
-.dvd--link {
+.dvd--link1 {
   display: inline-block;
-  height: 246px;
+  background: url('../img/dvd--top.png') no-repeat 2px 0px, url('../img/dvd--bottom.png') no-repeat -1px 285px;
+  height: 352px;
+  width: 114px;
+}
+
+.dvd--link2 {
+  display: inline-block;
+  margin-left: -4px;
+  background: url('../img/dvd--top.png') no-repeat -127px 0px, url('../img/dvd--bottom.png') no-repeat -134px 285px;
+  height: 352px;
+  width: 114px;
+}
+
+.dvd--link3 {
+  display: inline-block;
+  margin-left: -4px;
+  background: url('../img/dvd--top.png') no-repeat -249px 0px, url('../img/dvd--bottom.png') no-repeat -254px 285px;
+  height: 352px;
+  width: 114px;
+}
+
+.dvd--link4 {
+  display: inline-block;
+  margin-left: -4px;
+  background: url('../img/dvd--top.png') no-repeat -375px 0px, url('../img/dvd--bottom.png') no-repeat -374px 285px;
+  height: 352px;
+  width: 114px;
+}
+
+.dvd--link5 {
+  display: inline-block;
+  margin-left: -4px;
+  background: url('../img/dvd--top.png') no-repeat -494px -15px, url('../img/dvd--bottom.png') no-repeat -494px 285px;
+  height: 352px;
+  width: 114px;
+}
+
+.dvd--link6 {
+  display: inline-block;
+  margin-left: -4px;
+      background: url('../img/dvd--top.png') no-repeat -609px -15px, url('../img/dvd--bottom.png') no-repeat -614px 285px;
+  height: 352px;
+  width: 114px;
+}
+
+.dvd--link7 {
+  display: inline-block;
+  margin-left: -4px;
+  background: url('../img/dvd--top.png') no-repeat -730px 0px, url('../img/dvd--bottom.png') no-repeat -734px 285px;
+  height: 352px;
+  width: 114px;
+}
+
+.dvd--link1:hover {
+  background: url('../img/dvd--top.png') no-repeat 2px 15px, url('../img/dvd--bottom.png') no-repeat -1px 285px;
+}
+.dvd--link2:hover {
+  background: url('../img/dvd--top.png') no-repeat -127px 15px, url('../img/dvd--bottom.png') no-repeat -134px 285px;
+}
+.dvd--link3:hover {
+  background: url('../img/dvd--top.png') no-repeat -249px 15px, url('../img/dvd--bottom.png') no-repeat -254px 285px;
+}
+.dvd--link4:hover {
+  background: url('../img/dvd--top.png') no-repeat -375px 15px, url('../img/dvd--bottom.png') no-repeat -374px 285px;
+}
+.dvd--link5:hover {
+  background: url('../img/dvd--top.png') no-repeat -494px 0px, url('../img/dvd--bottom.png') no-repeat -494px 285px;
+}
+.dvd--link6:hover {
+  background: url('../img/dvd--top.png') no-repeat -609px 0px, url('../img/dvd--bottom.png') no-repeat -614px 285px;
+}
+.dvd--link7:hover {
+  background: url('../img/dvd--top.png') no-repeat -730px 15px, url('../img/dvd--bottom.png') no-repeat -734px 285px;
 }
 
 .story--wrapper {
-  background: linear-gradient(0deg, #840322 0%, #c42a4f 45%);
+  margin-top: 316px;
 }
 
 .dvd--story {
   background: #fff;
-  border: 3px solid #000;
+  border: 3px solid #ac005f;
   border-radius: 22px;
   border-top: 0;
 }
@@ -318,7 +389,7 @@ nav {
 
 /* MAIN */
 main {
-  margin: 0 auto;
+  margin: 100px auto;
   background: #fff;
   position: relative;
   width: 946px;
@@ -328,6 +399,7 @@ section {
   float: left;
   height: 653px;
   width: 455px;
+  text-align: left;
 }
 
 aside {
@@ -350,12 +422,27 @@ main::after {
 
 /* FOOTER */
 footer {
+    position: relative;
     margin: 0 auto;
+    padding-bottom: 10px;
     width: 946px;
+    text-align: left;
+}
+
+.brand {
+    display: block;
+    float: left;
+    height: 25px;
+    width: 130px;
+    background: url('../img/a1.png') no-repeat center;
+    text-decoration: none;
 }
 
 .copyright {
-  float: left;
+    display: block;
+    float: left;
+    margin-left: 2px;
+    line-height: 26px;
 }
 
 .footer--menu {
