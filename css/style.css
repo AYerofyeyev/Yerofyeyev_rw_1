@@ -6,17 +6,19 @@
 
 .wrapper {
   background: url('../img/background-left.jpg') no-repeat top left, url('../img/background-right.jpg') no-repeat top right;
-  margin: 0 auto;
   text-align: center;
+  width: 100%;
 }
 
-.wrapper--up {
-  padding-left: 1px;
+.wrapper--upper {
+  margin: 0 auto;
+  width: 942px;
   background: url('../img/header--background.jpg') no-repeat top;
 }
 
-.small--wrapper {
+.wrapper--lower {
   display: inline-block;
+  padding-top: 42px;
 }
 
 /* TEXT STYLING */
@@ -148,15 +150,10 @@ text-align: left;
   font-size: 12px;
 }
 
-
-
-
-
 /* HEAD */
 header {
   display: inline-block;
   position: relative;
-  width: 942px;
   border-top: 2px solid #ffb400;
   border-bottom: 1px solid #ffb400;
   padding: 23px 0 35px;
@@ -232,8 +229,8 @@ h2 {
 
 .header--devider {
   position: absolute;
-  margin-left: 445px;
-  margin-top: -20px;
+  margin-left: 442px;
+  margin-top: 16px;
   height: 42px;
   width: 42px;
   background: url('../img/header--devider.png') no-repeat center, #372222;
@@ -285,12 +282,14 @@ h2 {
 /* nav */
 nav {
   position: relative;
+  padding-top: 38px;
   background: #fff;
-  width: 946px;
 }
 
 .dvd {
   position: absolute;
+  margin-top: 25px;
+  margin-left: 6px;
 }
 
 .dvd--item {
@@ -301,7 +300,7 @@ nav {
   display: inline-block;
   background: url('../img/dvd--top.png') no-repeat 2px 0px, url('../img/dvd--bottom.png') no-repeat -1px 285px;
   height: 352px;
-  width: 114px;
+  width: 127px;
 }
 
 .dvd--link2 {
@@ -309,7 +308,7 @@ nav {
   margin-left: -4px;
   background: url('../img/dvd--top.png') no-repeat -127px 0px, url('../img/dvd--bottom.png') no-repeat -134px 285px;
   height: 352px;
-  width: 114px;
+  width: 122px;
 }
 
 .dvd--link3 {
@@ -317,7 +316,7 @@ nav {
   margin-left: -4px;
   background: url('../img/dvd--top.png') no-repeat -249px 0px, url('../img/dvd--bottom.png') no-repeat -254px 285px;
   height: 352px;
-  width: 114px;
+  width: 125px;
 }
 
 .dvd--link4 {
@@ -325,7 +324,7 @@ nav {
   margin-left: -4px;
   background: url('../img/dvd--top.png') no-repeat -375px 0px, url('../img/dvd--bottom.png') no-repeat -374px 285px;
   height: 352px;
-  width: 114px;
+  width: 118px;
 }
 
 .dvd--link5 {
@@ -341,7 +340,7 @@ nav {
   margin-left: -4px;
       background: url('../img/dvd--top.png') no-repeat -609px -15px, url('../img/dvd--bottom.png') no-repeat -614px 285px;
   height: 352px;
-  width: 114px;
+  width: 120px;
 }
 
 .dvd--link7 {
@@ -349,7 +348,7 @@ nav {
   margin-left: -4px;
   background: url('../img/dvd--top.png') no-repeat -730px 0px, url('../img/dvd--bottom.png') no-repeat -734px 285px;
   height: 352px;
-  width: 114px;
+  width: 118px;
 }
 
 .dvd--link1:hover {
@@ -375,10 +374,13 @@ nav {
 }
 
 .story--wrapper {
-  margin-top: 316px;
 }
 
 .dvd--story {
+  margin-top: 379px;
+  margin-left: 48px;
+  padding: 0 0 0 0;
+  width: 400px;
   background: #fff;
   border: 3px solid #ac005f;
   border-radius: 22px;
